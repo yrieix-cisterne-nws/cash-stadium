@@ -1,10 +1,13 @@
 export default function Tank() {
   return (
     <>
-    <main>
-      <h1>Welcome to the Tank Page</h1>
-      <p>This is the main content of the tank page.</p>
-    </main>
+    <div>
+      <h1>Tank cash generation</h1>
+    </div>
+    <div>
+      <h2>Tank amount</h2>
+      <p></p>
+    </div>
     </>
   );
 }
