@@ -1,10 +1,18 @@
-export default function Support() {
-  return (
+import CashGen from "../components/cash_gen"
+import { query } from "@/lib/db"
+
+export default async function SupportPage() {
+  let support = []
+
+  try {
+    support = await query('SELECT * FROM support')
+  } catch (err) {
+    console.error('Error fetching support')
+  }
+
+  return(
     <>
-    <main>
-      <h1>Welcome to the Support Page</h1>
-      <p>This is the main content of the support page.</p>
-    </main>
+      <CashGen title="Support" heroes={support} />
     </>
-  );
+  ) 
 }

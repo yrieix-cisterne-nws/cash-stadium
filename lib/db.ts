@@ -48,14 +48,6 @@ db.serialize(() => {
         healTank REAL
   )
     `)
-
-    db.run(`
-    CREATE TABLE IF NOT EXISTS users (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        username TEXT NOT NULL UNIQUE,
-        password TEXT NOT NULL
-    )
-    `)
 })
 
 export async function query(sql: string, values: (string | number | null)[] = []): Promise<unknown> {
