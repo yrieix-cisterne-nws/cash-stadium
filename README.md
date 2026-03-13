@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Summary
 
-## Getting Started
+1. [Presentation](#presentation)
+2. [Technology and Tools](#techno)
+3. [Deployment](#deployment)
+   - [Prerequirement](#pre)
+   - [Launch in Local](#launch)
+   - [Localhost](#local)
+4. [Deployment on Vercel](#vercel)
+5. [Website](#website)
+6. [Author](#author)
+7. [License](#license)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Presentation 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The goal of this project is to have a website that has the cash data of every heroes in Overwatch Stadium.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technology and Tools 
 
-## Learn More
+-- **Next.js**
+-- **TailwindCSS**
+-- **SQLITE3**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequirement
 
-## Deploy on Vercel
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Cloning the repo :**
+    ```sh
+    git clone https://github.com/yrieix-cisterne-nws/cash-stadium.git .
+    cd cash-stadium
+    ```
+
+2. **Launch in Local :**
+    ```sh
+    npm run dev
+    ``` 
+ 
+3. **Localhost**
+
+Website should be visible on 
+`https://localhost:3000`
+
+
+---
+
+## Deployment on Vercel
+
+The website will be deployed on Vercel.
+
+---
+
+## Website 
+
+(No website for now)
+
+---
+
+## Author
+
+**Yrieix Cisterne**
+Etudiant à la Normandie Web School
+
+- [LinkedIn](https://www.linkedin.com/in/yrieix-cisterne)
+- [GitHub](https://github.com/yrieix-cisterne-nws)
+
+---
+
+## License
+
+Project done as a way to improve.
+The site is not affiliated nor endorsed by Blizzard Entertainment. Overwatch and all related properties are property of Blizzard entertainment.

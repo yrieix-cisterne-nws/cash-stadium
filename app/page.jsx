@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
     <div className="flex flex-col items-center">
-      <div className="flex flex-col items-center pb-4">
+      <div className="flex flex-col items-center pb-4 gap-1">
         <h1 className="text-white text-5xl">Stadium Cash generation</h1>
         <p className="text-white">This website group the cash generation of every heroes available in Stadium</p>
       </div>
@@ -16,9 +16,9 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-8 items-center">
         <div className="flex flex-row gap-4">
-          <Card role="tank" text="Here's the cash generation for the Tanks in Stadium" color="tank"/>
-          <Card role="dps" text="Here's the cash generation for the Dps in Stadium" color="dps"/>
-          <Card role="support" text="Here's the cash generation for the Supports in Stadium" color="support"/>
+          <Card role="tank" text="Here's the cash generation for the Tank in Stadium" color="tank"/>
+          <Card role="dps" text="Here's the cash generation for the DPS in Stadium" color="dps"/>
+          <Card role="support" text="Here's the cash generation for the Support in Stadium" color="support"/>
         </div>
         <div className="flex flex-row gap-4">
           <Infocard title="What we discovered" items={["- Attack Speed, Weapon Power and Ability Power does not affect cash generation", "- Damage on tanks generate 40% less cash", "- Healing on tanks generate 30% less cash", "- Cash per damage is the same for healing", "- Overhealth does reduce cash generation (Thanks to Bird for the info)", "- Stadium Quickplay gives +25% cash per damage"]}/>
