@@ -1,56 +1,55 @@
 ## Summary
 
 1. [Presentation](#presentation)
-2. [Technology and Tools](#techno)
+2. [Technology and Tools](#technology-and-tools)
 3. [Deployment](#deployment)
-   - [Prerequirement](#pre)
-   - [Launch in Local](#launch)
-   - [Localhost](#local)
-4. [Deployment on Vercel](#vercel)
+   - [Prerequisites](#prerequisites)
+   - [Launch Locally](#launch-locally)
+   - [Localhost](#localhost)
+4. [Deployment on Vercel](#deployment-on-vercel)
 5. [Website](#website)
 6. [Author](#author)
 7. [License](#license)
 
 ---
 
-## Presentation 
+## Presentation
 
-The goal of this project is to have a website that has the cash data of every heroes in Overwatch Stadium.
+The goal of this project is to have a website displaying the cash data of every hero in Overwatch Stadium.
 
 ---
 
-## Technology and Tools 
+## Technology and Tools
 
--- **Next.js**
--- **TailwindCSS**
--- **SQLITE3**
+- **Next.js**
+- **TailwindCSS**
+- **SQLite3**
 
 ---
 
 ## Deployment
 
-### Prerequirement
+### Prerequisites
 
 - [Node.js](https://nodejs.org/)
 - [Git](https://git-scm.com/)
 
+### Local
 
-1. **Cloning the repo :**
-    ```sh
-    git clone https://github.com/yrieix-cisterne-nws/cash-stadium.git .
+1. **Clone the repository:**
+```sh
+    git clone https://github.com/yrieix-cisterne-nws/cash-stadium.git
     cd cash-stadium
-    ```
+```
 
-2. **Launch in Local :**
-    ```sh
+2. **Launch locally:**
+```sh
     npm run dev
-    ``` 
- 
+```
+
 3. **Localhost**
 
-Website should be visible on 
-`https://localhost:3000`
-
+   The website should be accessible at `http://localhost:3000`
 
 ---
 
@@ -60,15 +59,15 @@ The website will be deployed on Vercel.
 
 ---
 
-## Website 
+## Website
 
-(No website for now)
+(No website available yet)
 
 ---
 
 ## Author
 
-**Yrieix Cisterne**
+**Yrieix Cisterne**  
 Etudiant à la Normandie Web School
 
 - [LinkedIn](https://www.linkedin.com/in/yrieix-cisterne)
@@ -78,5 +77,5 @@ Etudiant à la Normandie Web School
 
 ## License
 
-Project done as a way to improve.
-The site is not affiliated nor endorsed by Blizzard Entertainment. Overwatch and all related properties are property of Blizzard entertainment.
+This project was made as a personal learning exercise.  
+This site is not affiliated with nor endorsed by Blizzard Entertainment. Overwatch and all related properties are the property of Blizzard Entertainment.
